@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stranica3-avon.css">
+	<meta charset="utf-8">
+	<title>Stranica3</title>
+	<link href="download.png" rel="icon" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+	<script src="javascript.js"></script>
+</head>
+<body>
+<div>
+	<h1 class="naslov2">Sajt za Avon Dame</h1>
+</div>
+  <div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="username" id="username"/>
+      <input type="password" placeholder="password" id="password"/>
+      <input type="button" value="Login" id="submit" onclick="validate()"/>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+	<button type="button" onclick="check()">CHECK FOR VALIDATION FIRST</button>
+	<p id="msg"></p>
+	 </div>
+</div>
+</body>
+</html>

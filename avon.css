@@ -1,0 +1,32 @@
+.podnaslov{
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+body{
+	background-image: url(download.png);
+}
+.poèetnideo{
+	background: #ba1a47;
+	border: solid 2px white;
+	 }
+.stranice{
+	background: #ba1a47;
+	border: solid 2px white;
+	padding: 6px 10px;
+	text-align: center;
+}	 
+.stranice a{
+	color: white;
+	font-size: 20px;
+	padding: 6px 10px;
+	text-decoration: none;
+}
+.stranica a:hover{
+	background-color: black;
+	color: #ba1a47;
+}
+.stranica a:active{
+	background: white;
+	color: blue;
+}
